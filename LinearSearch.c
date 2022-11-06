@@ -17,7 +17,7 @@ int main()
         }
     }
     if(i==n)
-        printf("%d is not found\n");
+        printf("%d is not found\n",item);
     return 0;
 }
 
