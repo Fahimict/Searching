@@ -2,7 +2,8 @@
 #include<string.h>
 int main()
 {
-    char str[10][10],name[10],i,n;
+    char str[10][10],name[10];
+    int i,n;
     printf("Enter the size of string array: ");
     scanf("%d",&n);
     for(i=0;i<n;i++)
